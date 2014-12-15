@@ -2,6 +2,7 @@
 
 struct point{
     double x, y;
+
 };
 
 extern std::vector<point> coordinates;
