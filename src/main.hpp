@@ -10,4 +10,6 @@ extern std::vector<std::vector<unsigned long long>> distances; //Distances in μ
 void getPointCount( );
 void getDistance( int p_pt1idx, int p_pt2idx );
 
-void calculatePositions( int p_pt1idx, int p_pt2idx );
+void calculatePositions( int p_pt1idx, int p_pt2idx, int p_callCount );
+
+void draw( int p_imageNo );
